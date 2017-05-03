@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网格布局-2行2列</title>
+	<style>
+		section{
+			display: grid;
+			grid-template-rows:100px 100px;
+			grid-template-columns:100px 100px;
+		}
+		div:nth-child(1){
+			background: red;
+		}
+		div:nth-child(2){
+			background: green;
+		}
+		div:nth-child(3){
+			background: purple;
+		}
+		div:nth-child(4){
+			background: blue;
+		}
+		
+	</style>
+</head>
+<body>
+	<section>
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</section>
+</body>
+</html>
